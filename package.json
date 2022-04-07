@@ -1,0 +1,19 @@
+{
+  "name": "solidjs-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "solid-js": "1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "babel-preset-solid": "1.0.0",
+    "parcel-bundler": "^2.0.0-alpha.3.2"
+  },
+  "keywords": []
+}
