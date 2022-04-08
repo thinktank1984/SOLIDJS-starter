@@ -1,5 +1,6 @@
 {
   "presets": [
-    "babel-preset-solid"
+    "babel-preset-solid",
+    "@babel/preset-flow"
   ]
 }

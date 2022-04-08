@@ -5,14 +5,18 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "flow": "flow"
   },
   "dependencies": {
     "solid-js": "latest"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0",
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-flow": "^7.16.7",
     "babel-preset-solid": "1.0.0",
+    "flow-bin": "^0.175.1",
     "parcel-bundler": "latest"
   },
   "keywords": []

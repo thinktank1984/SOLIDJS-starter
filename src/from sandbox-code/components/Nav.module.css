@@ -1,0 +1,19 @@
+.Nav {
+  background-color: rgb(44, 45, 50);
+}
+
+.Nav button {
+  color: white;
+  display: block;
+  margin: 1em;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 1em;
+}
+
+.Nav button:hover {
+  font-weight: bold;
+}
